@@ -42,4 +42,7 @@
     <string name="reloaded_perf_modes_battery">Battery</string>
     <string name="reloaded_perf_modes_auto">Auto</string>
     <string name="reloaded_perf_modes_performance">Performance</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Close</string>
 </resources>
