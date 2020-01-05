@@ -40,8 +40,8 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
     public boolean handlePreferenceTreeClick(Preference preference) {
         if (KEY_SYSTEM_UPDATE_SETTINGS.equals(preference.getKey())) {
             try {
-                String activityName = "org.reloaded.updater";
-                String className = "org.reloaded.updater.MainActivity";
+                String activityName = "org.reloadedos.updater";
+                String className = "org.reloadedos.updater.MainActivity";
                 Intent intent = new Intent();
                 intent.setComponent(new ComponentName(activityName, className));
                 mContext.startActivity(intent);
